@@ -1,19 +1,6 @@
 import time
-
 import pyautogui
-
-# pointer: [x, y]
-# sleep: 2
-# click: None
-click_steps = [
-    [1162, -1030],
-    None,
-    [1308, -584],
-    None,
-    2,
-    [2257, -781],
-    None
-]
+from steps import click_steps
 
 
 def start():
